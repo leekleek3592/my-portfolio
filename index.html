@@ -53,6 +53,14 @@ A strikingly designed Framer Website template perfect for showcasing your Agency
     
     <!-- End of bodyEnd -->
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var badgeContainer = document.getElementById('__framer-badge-container');
+    if (badgeContainer) {
+      badgeContainer.parentNode.removeChild(badgeContainer);
+    }
+  });
+</script>
 
 </body>
 
